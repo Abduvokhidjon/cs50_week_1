@@ -7,19 +7,31 @@ int main(void) {
 //     string last = get_string("What's your last name? ");
 //     printf("hello, %s %s\n", first, last);
 // }
-int x = 5;
-int y = 7;
+// int x = 5;
+// int y = 7;
 
-if (x < y) 
+// if (x < y) 
+// {
+//  printf("x is less than y\n");
+// }
+// else if (x > y)
+// {
+//  printf("x is greater than y\n");
+// }
+// else
+// {
+//  printf("x is equal to y\n");
+// }
+// }
+
+char c = get_char("Do you agree? ");
+
+if (c == 'y' || c == 'Y')
 {
- printf("x is less than y\n");
+    printf("Agreed.\n");
 }
-else if (x > y)
+else if (c == 'n' || c == 'N')
 {
- printf("x is greater than y\n");
-}
-else
-{
- printf("x is equal to y\n");
+    printf("Not agreed.\n");
 }
 }
